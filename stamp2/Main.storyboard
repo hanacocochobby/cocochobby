@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="h_dot_dl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FXX-A6-t6x">
+                                <rect key="frame" x="-357" y="-13" width="876" height="619"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVq-RL-G28">
+                                <rect key="frame" x="10" y="288" width="66" height="82"/>
+                                <state key="normal" image="a.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="a" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SCa-ao-Dca"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7PT-29-B3b">
+                                <rect key="frame" x="90" y="296" width="61" height="80"/>
+                                <state key="normal" image="b.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="b" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zjR-bI-Qig"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhQ-T8-t6R">
+                                <rect key="frame" x="164" y="291" width="59" height="86"/>
+                                <state key="normal" image="c.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="c" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VzB-gh-3JE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZq-0a-6L6">
+                                <rect key="frame" x="233" y="408" width="71" height="40"/>
+                                <state key="normal" image="d.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="d" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Y70-2x-go3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3L-TX-J0a">
+                                <rect key="frame" x="224" y="291" width="89" height="92"/>
+                                <state key="normal" backgroundImage="g.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="g" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6aD-eF-HBH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rM3-tM-eh7">
+                                <rect key="frame" x="158" y="385" width="71" height="85"/>
+                                <state key="normal" backgroundImage="h.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="h" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Gc3-9t-2dO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kS7-q6-Bky">
+                                <rect key="frame" x="16" y="489" width="57" height="46"/>
+                                <state key="normal" backgroundImage="k.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="k" destination="vXZ-lx-hvc" eventType="touchUpInside" id="W81-NH-e5q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWA-yU-ygR">
+                                <rect key="frame" x="7" y="384" width="73" height="88"/>
+                                <state key="normal" backgroundImage="m.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="f" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yeA-og-Erp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4H-GE-C6o">
+                                <rect key="frame" x="79" y="384" width="66" height="88"/>
+                                <state key="normal" backgroundImage="n.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="e" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7pm-1O-Gjy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJ4-VA-pJD">
+                                <rect key="frame" x="251" y="495" width="62" height="52"/>
+                                <state key="normal" image="clear.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clear" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8sT-eP-lbv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2w-42-LuS">
+                                <rect key="frame" x="198" y="495" width="57" height="46"/>
+                                <state key="normal" image="save2.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="save" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yme-Am-VfY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8c-X4-Sje">
+                                <rect key="frame" x="136" y="498" width="66" height="45"/>
+                                <state key="normal" image="back2.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pFp-uB-BBk"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="i.png" translatesAutoresizingMaskIntoConstraints="NO" id="kbV-ki-RDO">
+                                <rect key="frame" x="66" y="58" width="178" height="201"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="haikei" destination="FXX-A6-t6x" id="TLI-zo-1yU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="a.png" width="111" height="132"/>
+        <image name="b.png" width="104" height="137"/>
+        <image name="back2.png" width="118" height="88"/>
+        <image name="c.png" width="107" height="142"/>
+        <image name="clear.png" width="102" height="84"/>
+        <image name="d.png" width="71" height="40"/>
+        <image name="g.png" width="144" height="151"/>
+        <image name="h.png" width="122" height="143"/>
+        <image name="h_dot_dl.jpg" width="1630" height="1063"/>
+        <image name="i.png" width="198" height="219"/>
+        <image name="k.png" width="57" height="46"/>
+        <image name="m.png" width="123" height="152"/>
+        <image name="n.png" width="103" height="136"/>
+        <image name="save2.png" width="108" height="94"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
